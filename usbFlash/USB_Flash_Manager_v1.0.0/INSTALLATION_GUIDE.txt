@@ -1,0 +1,40 @@
+# USB Flash Drive Manager - Installation Instructions
+
+## For Your Colleagues
+
+### System Requirements
+- Windows 10 or Windows 11
+- Administrator privileges (required for formatting USB drives)
+
+### Installation Steps
+1. Extract all files from the ZIP to a folder (e.g., Desktop)
+2. Right-click on `USB_Flash_Manager.exe`
+3. Select "Run as administrator"
+4. If Windows shows security warning, click "More info" then "Run anyway"
+
+### How to Use
+1. **Connect USB drives** to your computer
+2. **Launch the application** as administrator
+3. **Scan for drives**: Click "Scan for USB Drives"
+4. **Select file system**: Choose from dropdown (exFAT recommended)
+5. **Format drives**:
+   - Select specific drive and click "Format Selected Drive", OR
+   - Click "Format All USB Drives" for bulk formatting
+6. **Monitor progress** in the status window
+
+### File System Guide
+- **exFAT**: Best for USB drives (recommended)
+- **NTFS**: Windows native, good for large files
+- **FAT32**: Legacy compatibility (4GB file limit)
+
+### Troubleshooting
+- **"Access Denied"**: Run as administrator
+- **Drive not detected**: Ensure USB is properly connected
+- **Format fails**: Try different file system or check drive health
+
+### Security Warning
+WARNING: This tool will PERMANENTLY ERASE all data on formatted drives!
+Always verify drive selection before confirming format operations.
+
+### Support
+For issues or questions, contact: [Your Name/Email]
