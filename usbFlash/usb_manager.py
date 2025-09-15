@@ -147,7 +147,7 @@ class USBManager:
         self.root.update_idletasks()
 
     def scan_usb_drives(self):
-        """Scan for USB drives using PowerShell Manager"""
+        """Scan for USB drives using PowerShell Manager"""      
         self.log_status("Scanning for USB drives...")
 
         try:
